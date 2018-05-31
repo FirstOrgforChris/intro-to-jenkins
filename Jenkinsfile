@@ -7,4 +7,8 @@ pipeline {
       }
     }
   }
+  environment {
+    chris = '2341'
+    paul = '27'
+  }
 }
