@@ -1,14 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Say hello') {
+    stage('Say test 2') {
       steps {
-        echo 'hello atlanta'
+        echo 'hello boston'
       }
     }
-  }
-  environment {
-    chris = '2341'
-    paul = '27'
   }
 }
